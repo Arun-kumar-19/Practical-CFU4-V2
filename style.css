@@ -1,0 +1,101 @@
+body {
+  font-family: "Space Mono", monospace;
+  background-color: hsl(217, 54%, 11%);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 100px 50px 20px 50px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sec-4,
+.sec-5,
+.sec-6 {
+  margin-top: 50px;
+}
+
+.main-1,
+.main-2,
+.main-3,
+.main-4,
+.main-5,
+.main-6 {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+.para-div {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+.equil-1 {
+  color: hsl(0, 0%, 100%);
+  padding: 10px 0px 0px 0px;
+}
+.equil-2 {
+  padding: 10px 0px;
+  color: hsl(215, 51%, 70%);
+
+  font-family: "space mono";
+}
+
+.days-left {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  border-color: hsl(215, 32%, 27%);
+  align-items: center;
+}
+.icon {
+  display: flex;
+}
+.eth {
+  margin-right: 40px;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  color: hsl(215, 51%, 70%);
+}
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.jules {
+  margin-left: 5%;
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+}
+
+.jules-para {
+  color: whitesmoke;
+  font-weight: 300;
+}
+.avatar {
+  display: flex;
+  font-size: small;
+  align-items: center;
+  justify-content: space;
+}
+
+.avatar-img {
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 100%;
+}
